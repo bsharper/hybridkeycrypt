@@ -1,4 +1,4 @@
-# Asymmetric Encryption Tool
+# hybrid_keyscrypt.sh - Asymmetric Encryption Tool
 
 This script provides a simple command-line tool for asymmetric encryption and decryption using OpenSSL. It encrypts files with AES256 with a randomly generated secret key, which is then encrypted with an RSA public key (~/.ssh/id_rsa by default). The encrypted file and the encrypted secret key are combined into a single output file.
 
