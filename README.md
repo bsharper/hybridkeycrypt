@@ -51,7 +51,7 @@ To decrypt a file and display the contents without saving, use the `--` option a
 
 ## Example
 
-Encrypt a file (assumes ~/.ssh/id_rsa exists):
+Encrypt a file (assumes `~/.ssh/id_rsa` exists):
 
 ```bash
 ./hybrid_keycrypt.sh encrypt myfile.txt 
