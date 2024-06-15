@@ -6,7 +6,7 @@ This script provides a simple command-line tool for asymmetric encryption and de
 
 I wrote this initially to learn about openssl. The idea was that files could be stored encrypted and secured with `~/.ssh/id_rsa`, so if secret files were accidently included in an archive, it wouldn't matter as long as `~/.ssh/id_rsa` wasn't. 
 
-This is not a robust, production ready script. The current path workspace is geared more for testing that everyday use. It could be modified to use a temporary directory, but care should be taken to make sure any intermediate files are securely removed after use.
+This is not a robust, production ready script. The current path workspace is geared more for testing than everyday use. It could be modified to use a temporary directory, but care should be taken to make sure any intermediate files are securely removed after use.
 
 ## Prerequisites
 
